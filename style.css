@@ -20,7 +20,6 @@ body {
 
 .content {
     width: 80%;
-    margin-top: 20px;
 }
 
 /* navbar */
@@ -289,7 +288,8 @@ img{
 
 .row{
     float: left;
-    width: 100%;    
+    width: 100%;  
+    margin-top: 20px;  
 }
 
 
