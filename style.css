@@ -393,6 +393,9 @@ td{
 }
 
 @media screen and (max-width: 800px) {
+    .description {
+        font-size: 12px;
+    }
 
     .Details {
         width: 100%;
