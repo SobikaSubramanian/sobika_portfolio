@@ -27,3 +27,14 @@ backToTopBtn.addEventListener("click", function() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 });
+
+//chatbot
+document.getElementsByClassName('chatbot')[0].addEventListener('click', function() {
+    document.getElementById('iframeContainer').style.display = 'block';
+    document.getElementById('overlay').style.display = 'block';
+});
+
+document.getElementById('overlay').addEventListener('click', function() {
+    document.getElementById('iframeContainer').style.display = 'none';
+    document.getElementById('overlay').style.display = 'none';
+});
